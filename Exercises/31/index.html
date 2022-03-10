@@ -1,0 +1,80 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        label {
+            margin-right: 25px;
+            height: 15px;
+            display: inline-block;
+        }
+
+        label input[type="checkbox"]:focus+.slider-checkbox {
+            box-shadow: 0 0 0 2px lightgreen;
+        }
+
+        .slider-checkbox {
+            display: inline-block;
+            background: #ccc;
+            width: 60px;
+            height: 30px;
+            margin-right: 10px;
+            border-radius: 15px;
+        }
+
+        input[type="checkbox"]+.slider-checkbox::before {
+            content: '';
+            display: block;
+            background: #eee;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin: 5px;
+            transition: all .2s ease-in-out;
+        }
+
+        input[type="checkbox"]:checked+.slider-checkbox::before {
+            content: '';
+            transform: translate(30px);
+            background: lightgreen;
+        }
+
+        input[type="checkbox"] {
+            opacity: 0;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <label for="sports">
+        <input type="checkbox" name="sports" id="sports">
+        <span class="slider-checkbox"></span>
+        Sports
+    </label>
+
+    <label for="politics">
+        <input type="checkbox" name="politics" id="politics">
+        <span class="slider-checkbox"></span>
+        Politics
+    </label>
+
+    <label for="education">
+        <input type="checkbox" name="education" id="education">
+        <span class="slider-checkbox"></span>
+        Education
+    </label>
+
+</body>
+
+</html>

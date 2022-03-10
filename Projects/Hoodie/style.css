@@ -1,0 +1,120 @@
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    background-color: #ccc;
+}
+
+
+.main-content header {
+    background-image:url(images/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+}
+
+
+.main-content ul {
+    text-align: right;
+    padding: 20px 20px;
+}
+
+.main-content li {
+    display: inline-block;
+    list-style-type: none;
+    border: solid 1px white;
+}
+
+.main-content a{
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.main-content a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-content h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 46px;
+    text-shadow: 2px 2px 3px #333;
+}
+
+.main-content h2 {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background-color: #343231;
+    width: 300px;
+    padding: 12px;
+    border-bottom: solid 3px white;
+    margin: auto;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.cards-selector {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.section-card {
+    width: 33%;
+    float: left;
+    box-sizing: border-box; 
+    margin: 1px;
+}
+
+.section-card p {
+    background-color: #464646;
+    margin: 0;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.section-card img {
+    width: 100%;
+    display: block;
+}
+
+.paragraphs-content {
+    padding: 15px;
+    background-color: #ffffff;
+    margin-top: 15px;
+}
+
+.paragraphs-content h2{
+    text-align: left;
+    font-size: 25px;
+    line-height: 50px;
+    background-color: #eeeeee;
+    border-bottom: solid 2px #cccccc;
+    margin: 5px 5px;
+}
+
+
+footer {
+    height: 80px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #6b6c68;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    line-height: 80px;
+}

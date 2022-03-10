@@ -1,0 +1,40 @@
+body{
+    max-width: 80%;
+    margin: auto;
+    font-family: Verdana, helvetica, sans-serif;
+    color: #444;
+}
+
+.name-header h1{
+    background-color: #ffc973;
+    color: #b64511;
+    text-align: center;
+    font-size: 46px;
+}
+
+.section-header h2{
+    background-color: #db9192;
+    color: #ff0000;
+    font-size: 35px;
+    border-bottom: solid 3px #ff0000;
+    padding: 10px;
+}
+
+.section-header a{
+    text-decoration: none;
+}
+
+.section-header a:hover{
+    text-decoration: underline;
+}
+
+.section-header ul{
+    padding-left: 0;
+}
+
+.section-header li{
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+
